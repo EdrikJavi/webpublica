@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  background: #ecf0f1;
 }
 
 .container {
@@ -8,7 +9,6 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #f4f4f4;
-
 }
 
 .container h2 {
@@ -36,11 +36,6 @@ body {
   background-color: #45a049;
 }
 
-body {
-  background: #ecf0f1;
-}
-
-
 a {
   color: #1B4F72;
   text-decoration: none;
@@ -53,16 +48,17 @@ a:hover {
 
 img {
   display: block;
-  margin: 0px;
+  margin: 0;
   max-width: 350px;
   height: auto;
   width: auto;
-  margin-bottom: -0px;
+  margin-bottom: 0;
 }
 
 header {
   width: 100%;
   height: 120px;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -77,29 +73,31 @@ footer {
   background: #AEB6BF;
   width: 100%;
   overflow: auto;
-
 }
 
-.social{
-    text-align: center;
+.social {
+  text-align: center;
 }
-.social li{
-    display: inline;
+
+.social li {
+  display: inline;
 }
-.social i{
-    font-size: 500%;
-    margin: 1%;
-    padding: 4%;
+
+.social i {
+  font-size: 500%;
+  margin: 1%;
+  padding: 4%;
 }
+
 .footer-second {
-   border-top: 1px solid black;
-   text-align: center;
-   margin: 0;
+  border-top: 1px solid black;
+  text-align: center;
+  margin: 0;
 }
-.one-third-pading {
-    width: 29%;
-    float: right;
-    margin: 2% 2%;
-    height: 60px;
 
+.one-third-pading {
+  width: 29%;
+  float: right;
+  margin: 2% 2%;
+  height: 60px;
 }
