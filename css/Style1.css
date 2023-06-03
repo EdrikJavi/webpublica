@@ -1,7 +1,10 @@
+/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
+  background: #ecf0f1;
 }
 
+/* Estilos del contenedor principal */
 .container {
   width: 300px;
   margin: 0 auto;
@@ -10,10 +13,12 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Estilos para encabezados en el contenedor */
 .container h2 {
   text-align: center;
 }
 
+/* Estilos para campos de texto y contraseñas en el contenedor */
 .container input[type="text"],
 .container input[type="password"] {
   width: 100%;
@@ -23,6 +28,7 @@ body {
   box-sizing: border-box;
 }
 
+/* Estilos para botón de envío en el contenedor */
 .container input[type="submit"] {
   width: 100%;
   background-color: #4CAF50;
@@ -36,11 +42,7 @@ body {
   background-color: #45a049;
 }
 
-body {
-  background: #ecf0f1;
-}
-
-
+/* Estilos para enlaces */
 a {
   color: #1B4F72;
   text-decoration: none;
@@ -51,6 +53,7 @@ a:hover {
   color: #3498DB;
 }
 
+/* Estilos para imágenes */
 img {
   display: block;
   margin: 0px;
@@ -60,17 +63,20 @@ img {
   margin-bottom: -0px;
 }
 
+/* Estilos para el contenedor principal (wrapper) */
 #wrapper {
   max-width: 1300px;
   margin: auto;
 }
 
+/* Estilos para el contenedor del banner */
 #Banner-whapper {
   max-width: 1500px;
   margin: 0 auto;
   padding: 0 0 3% 0;
 }
 
+/* Estilos para el encabezado */
 header {
   width: 100%;
   height: 120px;
@@ -84,18 +90,19 @@ header #logo img {
   width: 1000px;
 }
 
-
-.one-third{
-    width:31.5%;
-    float: left;
-    padding:10px;
-    text-align: center;
+/* Estilos para una tercera parte del ancho */
+.one-third {
+  width: 31.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
 }
+
+/* Estilos para el pie de página */
 footer {
   background: #AEB6BF;
   width: 100%;
   overflow: auto;
-
 }
 
 .icon-text {
@@ -107,7 +114,6 @@ footer {
   float: left;
   width: 20%;
   padding: 4%;
-
 }
 
 .icon-text-text {
@@ -116,25 +122,28 @@ footer {
   padding: 4% 4% 2% 0;
 }
 
-.social{
-    text-align: center;
+.social {
+  text-align: center;
 }
-.social li{
-    display: inline;
-}
-.social i{
-    font-size: 500%;
-    margin: 1%;
-    padding: 4%;
-}
-.footer-second {
-   border-top: 1px solid black;
-   text-align: center;
-   margin: 0;
-}
-.one-third-pading {
-    width: 102%;
-    float: left;
-    height: 95px;
 
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 500%;
+  margin: 1%;
+  padding: 4%;
+}
+
+.footer-second {
+  border-top: 1px solid black;
+  text-align: center;
+  margin: 0;
+}
+
+.one-third-pading {
+  width: 102%;
+  float: left;
+  height: 95px;
 }
